@@ -1,1 +1,1 @@
-# smt-tutorial-week-7
+# Tutorial for SMT week 7
