@@ -8,7 +8,8 @@ def quick_sort(arr):
         for i in arr:
             if i < arr[0]:
                 less.append(i)
-            elif i < arr[0]:
+            # Error from before changed from < to >
+            elif i > arr[0]:
                 more.append(i)
             else:
                 pivot.append(i)
